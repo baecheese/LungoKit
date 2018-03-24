@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0326FD4E1FF88CBC00A9DCAF /* DateTimeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0326FD4D1FF88CBC00A9DCAF /* DateTimeTest.swift */; };
+		0326FD511FF88EFA00A9DCAF /* LungoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0326FD501FF88EFA00A9DCAF /* LungoType.swift */; };
 		03F3CCDC1FF73C1B00181275 /* LungoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F3CCD21FF73C1A00181275 /* LungoKit.framework */; };
-		03F3CCE11FF73C1B00181275 /* LungoKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F3CCE01FF73C1B00181275 /* LungoKitTests.swift */; };
 		03F3CCE31FF73C1B00181275 /* LungoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F3CCD51FF73C1A00181275 /* LungoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F3CCED1FF73CE300181275 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F3CCEC1FF73CE300181275 /* Enum.swift */; };
+		03F3CCEF1FF73D1E00181275 /* EnumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F3CCEE1FF73D1E00181275 /* EnumTest.swift */; };
+		03F3CCF31FF73F0800181275 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F3CCF21FF73F0800181275 /* Logger.swift */; };
+		03F3CCF61FF74BC100181275 /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F3CCF51FF74BC100181275 /* DateTime.swift */; };
+		03F3CD041FF7971800181275 /* LoggerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F3CD031FF7971800181275 /* LoggerTest.swift */; };
+		03F3CD061FF7992300181275 /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F3CD051FF7992300181275 /* Locale.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +30,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0326FD4D1FF88CBC00A9DCAF /* DateTimeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeTest.swift; sourceTree = "<group>"; };
+		0326FD501FF88EFA00A9DCAF /* LungoType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LungoType.swift; sourceTree = "<group>"; };
 		03F3CCD21FF73C1A00181275 /* LungoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LungoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F3CCD51FF73C1A00181275 /* LungoKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LungoKit.h; sourceTree = "<group>"; };
 		03F3CCD61FF73C1A00181275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03F3CCDB1FF73C1B00181275 /* LungoKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LungoKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		03F3CCE01FF73C1B00181275 /* LungoKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LungoKitTests.swift; sourceTree = "<group>"; };
 		03F3CCE21FF73C1B00181275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F3CCEC1FF73CE300181275 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		03F3CCEE1FF73D1E00181275 /* EnumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumTest.swift; sourceTree = "<group>"; };
+		03F3CCF21FF73F0800181275 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		03F3CCF51FF74BC100181275 /* DateTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTime.swift; sourceTree = "<group>"; };
+		03F3CD031FF7971800181275 /* LoggerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerTest.swift; sourceTree = "<group>"; };
+		03F3CD051FF7992300181275 /* Locale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locale.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0326FD4F1FF88EE100A9DCAF /* object */ = {
+			isa = PBXGroup;
+			children = (
+				0326FD501FF88EFA00A9DCAF /* LungoType.swift */,
+			);
+			path = object;
+			sourceTree = "<group>";
+		};
 		03F3CCC81FF73C1A00181275 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +95,10 @@
 			children = (
 				03F3CCD51FF73C1A00181275 /* LungoKit.h */,
 				03F3CCD61FF73C1A00181275 /* Info.plist */,
+				0326FD4F1FF88EE100A9DCAF /* object */,
+				03F3CCF41FF746CF00181275 /* datetime */,
+				03F3CCF11FF73EE800181275 /* logging */,
+				03F3CCF01FF73DE500181275 /* enumeration */,
 			);
 			path = LungoKit;
 			sourceTree = "<group>";
@@ -80,10 +106,61 @@
 		03F3CCDF1FF73C1B00181275 /* LungoKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				03F3CCE01FF73C1B00181275 /* LungoKitTests.swift */,
 				03F3CCE21FF73C1B00181275 /* Info.plist */,
+				03F3CCF71FF7507D00181275 /* datetime */,
+				03F3CD021FF7969800181275 /* logging */,
+				03F3CCFA1FF751E400181275 /* enumeration */,
 			);
 			path = LungoKitTests;
+			sourceTree = "<group>";
+		};
+		03F3CCF01FF73DE500181275 /* enumeration */ = {
+			isa = PBXGroup;
+			children = (
+				03F3CCEC1FF73CE300181275 /* Enum.swift */,
+			);
+			path = enumeration;
+			sourceTree = "<group>";
+		};
+		03F3CCF11FF73EE800181275 /* logging */ = {
+			isa = PBXGroup;
+			children = (
+				03F3CCF21FF73F0800181275 /* Logger.swift */,
+			);
+			path = logging;
+			sourceTree = "<group>";
+		};
+		03F3CCF41FF746CF00181275 /* datetime */ = {
+			isa = PBXGroup;
+			children = (
+				03F3CCF51FF74BC100181275 /* DateTime.swift */,
+				03F3CD051FF7992300181275 /* Locale.swift */,
+			);
+			path = datetime;
+			sourceTree = "<group>";
+		};
+		03F3CCF71FF7507D00181275 /* datetime */ = {
+			isa = PBXGroup;
+			children = (
+				0326FD4D1FF88CBC00A9DCAF /* DateTimeTest.swift */,
+			);
+			path = datetime;
+			sourceTree = "<group>";
+		};
+		03F3CCFA1FF751E400181275 /* enumeration */ = {
+			isa = PBXGroup;
+			children = (
+				03F3CCEE1FF73D1E00181275 /* EnumTest.swift */,
+			);
+			path = enumeration;
+			sourceTree = "<group>";
+		};
+		03F3CD021FF7969800181275 /* logging */ = {
+			isa = PBXGroup;
+			children = (
+				03F3CD031FF7971800181275 /* LoggerTest.swift */,
+			);
+			path = logging;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +225,7 @@
 				TargetAttributes = {
 					03F3CCD11FF73C1A00181275 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					03F3CCDA1FF73C1B00181275 = {
@@ -196,6 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F3CCED1FF73CE300181275 /* Enum.swift in Sources */,
+				0326FD511FF88EFA00A9DCAF /* LungoType.swift in Sources */,
+				03F3CD061FF7992300181275 /* Locale.swift in Sources */,
+				03F3CCF61FF74BC100181275 /* DateTime.swift in Sources */,
+				03F3CCF31FF73F0800181275 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03F3CCE11FF73C1B00181275 /* LungoKitTests.swift in Sources */,
+				03F3CCEF1FF73D1E00181275 /* EnumTest.swift in Sources */,
+				0326FD4E1FF88CBC00A9DCAF /* DateTimeTest.swift in Sources */,
+				03F3CD041FF7971800181275 /* LoggerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +419,7 @@
 		03F3CCE71FF73C1B00181275 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cheesebae.LungoKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +442,7 @@
 		03F3CCE81FF73C1B00181275 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +464,7 @@
 		03F3CCEA1FF73C1B00181275 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Z5E8777P2;
 				INFOPLIST_FILE = LungoKitTests/Info.plist;
@@ -390,6 +479,7 @@
 		03F3CCEB1FF73C1B00181275 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Z5E8777P2;
 				INFOPLIST_FILE = LungoKitTests/Info.plist;
